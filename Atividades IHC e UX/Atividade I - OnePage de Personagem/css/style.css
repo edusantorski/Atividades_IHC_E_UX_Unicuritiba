@@ -1,0 +1,109 @@
+body {
+    background-image:url("images/chosenwolf.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #2B2B2B;
+    background-attachment: fixed;
+    color: rgb(190, 0, 0);
+}
+
+div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-family: 'Cinzel', serif;
+    margin: 0%;
+    margin-top: 10px;
+    margin-bottom: 0%;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Cinzel', serif;
+    margin: 0%;
+    font-size: large;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#loreCabecalho {
+    font-family: 'Cinzel', serif;
+}
+
+#loreDescricao{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.container {
+    display: flex;
+    background-color: rgba(43, 43, 43, 0.6);
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    border-radius: 12px;
+    padding: 20px;
+    
+}
+
+.containerDois {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    flex-direction: column;
+    background-color: rgba(43, 43, 43, 0.6);
+    border-radius: 12px;
+    padding: 20px;
+
+}
+
+.topoContainer{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.habilidade {
+    margin-bottom: 15px;
+    cursor: pointer;
+   font-family: 'Cinzel', serif;
+}
+
+.iconeHabilidade{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.tituloHabilidade{
+    font-family: 'Cinzel', serif;
+
+}
+
+.descricaoHabilidade {
+    display: none;
+    margin-top: 10px;
+    background: #1f1f1f;
+    padding: 10px;
+    border-radius: 8px;
+    color: rgb(233, 0, 0);
+}
+
+.habilidade-ativa .descricaoHabilidade {
+    display: block;
+    animation: fade 0.3s ease-in-out;
+}
+
+@keyframes fade {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+

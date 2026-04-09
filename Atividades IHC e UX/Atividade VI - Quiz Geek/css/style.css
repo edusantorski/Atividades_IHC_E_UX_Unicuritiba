@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #1f1f1f, #3a3a3a);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: #2b2b2b;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+p {
+    text-align: center;
+    color: #ccc;
+}
+
+h2 {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #ffd700;
+}
+
+input[type="radio"] {
+    margin-right: 8px;
+}
+
+br {
+    margin-bottom: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background: linear-gradient(90deg, #ff0000, #8b0000);
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(255,0,0,0.7);
+}
+
+#resultado {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}

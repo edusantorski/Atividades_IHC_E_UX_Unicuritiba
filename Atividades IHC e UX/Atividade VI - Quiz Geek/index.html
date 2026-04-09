@@ -1,0 +1,56 @@
+<!-- ATIVIDADE 6 - QUIZ GEEK
+Crie um quiz simples com 3 perguntas.
+Requisitos:
+Perguntas sobre cultura geek
+Opções de resposta
+Mostrar pontuação final
+Feedback (acertou/errou)
+
+Nome do Aluno: Eduardo Roberto Marques
+RA: 942617156
+Unidade Currícular: Interação Humano-Computador e User Experience | UNICURITIBA
+Campus: UNICURITIBA - Milton Viana, 571
+Data: 09/04/2026
+-->
+
+<html>
+    <head>
+        <title>Quiz Geek</title>
+        <script src="./js/script.js"></script>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <h1>Quiz Geek</h1>
+        <p>Teste seus conhecimentos sobre cultura geek!</p>
+        <form id="quizForm">
+            <h2>Pergunta 1: Qual é o nome do personagem principal de "O Senhor dos Anéis"?</h2>
+            <input type="radio" name="q1" value="a"> Frodo Baggins<br>
+            <input type="radio" name="q1" value="b"> Gandalf<br>
+            <input type="radio" name="q1" value="c"> Aragorn<br>
+
+            <h2>Pergunta 2: Qual é o nome do super-herói que tem um escudo indestrutível?</h2>
+            <input type="radio" name="q2" value="a"> Homem-Aranha<br>
+            <input type="radio" name="q2" value="b"> Capitão América<br>
+            <input type="radio" name="q2" value="c"> Thor<br>
+
+            <h2>Pergunta 3: Qual é o nome do universo fictício criado por George R.R. Martin?</h2>
+            <input type="radio" name="q3" value="a"> Nárnia<br>
+            <input type="radio" name="q3" value="b"> Terra Média<br>
+            <input type="radio" name="q3" value="c"> Westeros<br>
+
+            <h2>Pergunta 4: A qual casa de magia pertencia a aluna Luna Lovegood?</h2>
+            <input type="radio" name="q4" value="a"> Griffindor<br>
+            <input type="radio" name="q4" value="b"> Ravenclaw<br>
+            <input type="radio" name="q4" value="c"> Hufflepuff<br>
+
+            <h2>Pergunta 5: A qual produtora pertence o personagem Deadpool?</h2>
+            <input type="radio" name="q5" value="a"> Marvel<br>
+            <input type="radio" name="q5" value="b"> DC Comics<br>
+            <input type="radio" name="q5" value="c"> Image Comics<br>
+
+            <br><br>
+            <button type="button" onclick="submitQuiz()">Enviar Respostas</button>
+        </form>
+
+    </body>
+</html>

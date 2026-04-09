@@ -1,0 +1,32 @@
+<!-- ATIVIDADE 5 - SISTEMA DE PONTUAÇÃO
+5. Sistema de Pontuação 
+Simule um sistema simples de pontos de um jogo.
+Requisitos:
+Botões "+10 XP" e "-5 XP"
+Exibir pontuação atual
+Atualizar valores dinamicamente
+
+Nome do Aluno: Eduardo Roberto Marques
+RA: 942617156
+Unidade Currícular: Interação Humano-Computador e User Experience | UNICURITIBA
+Campus: UNICURITIBA - Milton Viana, 571
+Data: 09/04/2026
+-->
+<html>
+    <head>
+        <title>Sistema de Pontuação</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="./javascript/javascript.js"></script>
+
+    </head>
+    <body>
+        <div class="container">
+            <h1>Sistema de Pontuação</h1>
+            <p>Pontuação: <span id="score">0</span></p>
+            <div class="buttons">
+                <button onclick="subtractPoints(5)">-5 XP</button>
+                <button onclick="addPoints(10)">+10 XP</button>
+            </div>
+        </div>
+    </body>
+</html>

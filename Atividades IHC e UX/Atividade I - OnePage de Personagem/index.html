@@ -1,0 +1,136 @@
+<!-- ATIVIDADE 1 - CARD DE PERSONAGEM
+1. Perfil de Personagem 
+Crie uma página exibindo o perfil de um personagem geek (filme, anime, jogo ou HQ).
+Requisitos:
+Nome do personagem
+Imagem
+Lista de habilidades
+Pequena descrição
+Estilização com CSS (cores e fontes temáticas)
+ 
+Nome do Aluno: Eduardo Roberto Marques
+RA: 942617156
+Unidade Currícular: Interação Humano-Computador e User Experience | UNICURITIBA
+Campus: UNICURITIBA - Milton Viana, 571
+Data: 05/04/2026
+
+-->
+<html>
+        <head>
+            <script src="./js/javascript.js"></script>
+
+            <link rel="stylesheet" href="./css/style.css">
+                <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+                <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+        </head>
+        <body>
+            <div class="container">
+                <h1> Katarina </h1>
+                <h2> The Sinister Blade </h2>
+
+            </div>
+
+            <div class="container">
+
+                    <h1> Descrição da campeã</h1>
+
+                    <div id="loreDescricao"> A Katarina é uma assassina ágil e letal de Noxus, conhecida por sua velocidade e precisão em combate. Mestra no uso de lâminas, ela elimina seus inimigos rapidamente, aproveitando brechas para atacar e desaparecer antes de ser atingida. No jogo League of Legends, Katarina se destaca por causar grande dano em área e resetar suas habilidades ao abater inimigos, o que permite sequências devastadoras durante as lutas. Seu estilo exige reflexos rápidos e bom posicionamento, sendo uma campeã de alto risco e alto impacto.
+                    </div>
+
+                </div>
+
+            <div class="containerDois">
+                    <h1>Habilidades</h1>
+
+                <div class="habilidade" onclick="toggleDescricao(this)">
+                    <div class="topoContainer">
+                        <img src="./css/images/voracidade.png" class="iconeHabilidade">
+                        <p class="tituloHabilidade">Voracidade</p>
+                    </div>
+
+                    <div class="conteudoContainer">
+                        <p class="descricaoHabilidade">
+                        Os Tempos de Recarga de Katarina são reduzidos drasticamente sempre que um Campeão que ela havia causado dano recentemente morrer. Se apanhar uma Adaga, Katarina a usa para cortar todos os inimigos próximos, causando Dano Mágico.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="habilidade" onclick="toggleDescricao(this)">
+                    <div class="topoContainer">
+                        <img src="./css/images/lamina saltitante.png" class="iconeHabilidade">
+                        <p class="tituloHabilidade">Lâmina Saltitante</p>
+                    </div>
+
+                    <p class="descricaoHabilidade">Katarina arremessa uma Adaga no alvo. Ela salta em inimigos próximos antes de ricochetear e cair no chão.
+                    </p>
+
+                </div>
+                
+                <div class="habilidade" onclick="toggleDescricao(this)">
+                    <div class="topoContainer">
+                        <img src="./css/images/preparação.png" class="iconeHabilidade">
+                        <p class="tituloHabilidade">Preparação</p>
+                    </div>
+
+                    <p class="descricaoHabilidade">Katarina recebe um impulso de Velocidade de Movimento e joga uma Adaga para cima.
+                    </p>
+                </div>
+
+                <div class="habilidade" onclick="toggleDescricao(this)">
+                    <div class="topoContainer">
+                        <img src="./css/images/shunpo.png" class="iconeHabilidade">
+                        <p class="tituloHabilidade">Shunpo</p>
+                    </div>
+
+                    <p class="descricaoHabilidade">Katarina desloca-se em direção ao alvo, golpeando-o caso seja inimigo ou golpeando o inimigo mais próximo caso não seja.
+                </p>
+                </div>
+
+                <div class="habilidade" onclick="toggleDescricao(this)">
+                    <div class="topoContainer">
+                        <img src="./css/images/lotus da morte.png" class="iconeHabilidade">
+                        <p class="tituloHabilidade">Lótus da Morte</p>
+                    </div>
+
+                    <p class="descricaoHabilidade">Katarina gira em torno de si mesma, disparando adagas muito rapidamente e causando muito Dano Mágico nos 3 Campeões inimigos mais próximos.
+                    </p>
+                </div>
+
+            </div>
+
+                <!-- Alternativa de Habilidade (recurso lista (Ul))-
+                <div class="lista">
+                    <h1>Habilidades</h1>
+                    <ul>
+                        <li class="habilidade">Voracidade
+                            <p>Os Tempos de Recarga de Katarina são reduzidos drasticamente sempre que um Campeão que ela havia causado dano recentemente morrer. Se apanhar uma Adaga, Katarina a usa para cortar todos os inimigos próximos, causando Dano Mágico.
+                            </p>
+                        </li>
+
+                      <li class="habilidade">Lâmina Saltitante
+                            <p>Katarina arremessa uma Adaga no alvo. Ela salta em inimigos próximos antes de ricochetear e cair no chão.
+                            </p>
+                        </li>
+
+                      <li class="habilidade">Preparação
+                            <p>Katarina recebe um impulso de Velocidade de Movimento e joga uma Adaga para cima.
+                            </p>
+                        </li>
+
+                      <li class="habilidade">Shunpo
+                            <p>Katarina desloca-se em direção ao alvo, golpeando-o caso seja inimigo ou golpeando o inimigo mais próximo caso não seja.
+                            </p>
+                        </li>
+
+                      <li class="habilidade">Lótus da Morte
+                             <p>Katarina gira em torno de si mesma, disparando adagas muito rapidamente e causando muito Dano Mágico nos 3 Campeões inimigos mais próximos.
+                            </p>
+                        </li>
+                    
+                    </ul> 
+
+                </div>-->
+        </body>
+</html> 

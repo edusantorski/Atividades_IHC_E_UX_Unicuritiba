@@ -1,0 +1,65 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: #1e1e1e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 500px;
+  background: linear-gradient(145deg, #000000, #047e33);
+  border-radius: 15px;
+  padding: 15px;
+  border: 7px solid #C0C0C0;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.6);
+}
+
+.imagemCard {
+  width: 100%;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+.stars {
+  text-align: right;
+  font-size: 18px;
+  color: gold;
+  text-shadow: 
+    0 0 5px rgba(133, 133, 133, 0.8),
+    0 0 10px rgba(255,215,0,0.6);
+  margin-bottom: 5px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+h2{
+    font-size: 18px;
+    color: #C0C0C0;
+    text-shadow: 0 0 5px rgba(201,162,39,0.8);
+    margin: 0;
+}
+
+h1{
+    font-size: 24px;
+    color: #C0C0C0;
+    text-shadow: 0 0 5px rgba(201,162,39,0.8);
+    margin: 0;
+}
+
+#loreDescricao {
+    font-size: 14px;
+    color: #C0C0C0;
+    text-shadow: 0 0 5px rgba(201,162,39,0.8);
+    margin-bottom: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    padding: 15px;
+    border: 1px solid #C0C0C0;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+

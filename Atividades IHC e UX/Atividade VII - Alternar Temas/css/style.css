@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f5f5f5;
+    color: #222;
+    transition: 2.8s;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+form {
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+#themeButton {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #333;
+    color: #fff;
+}
+
+.dark-mode {
+    background: linear-gradient(135deg, #1f1f1f, #3a3a3a);
+    color: #fff;
+}
+
+.dark-mode form {
+    background-color: #2b2b2b;
+}
+
+.dark-mode h2 {
+    color: #ffd700;
+}
+
+.dark-mode #themeButton {
+    background: #ffd700;
+    color: #000;
+}
